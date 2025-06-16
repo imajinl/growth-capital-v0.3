@@ -86,7 +86,20 @@ Users can adjust weighted coefficients through a simple matrix interface, allowi
   npm install -g @google/clasp
   ```
 
-### 2. Clone and Link Project
+### 2. Get RootData API Key
+
+1. Visit [RootData API](https://www.rootdata.com/Api)
+2. Choose a plan (Basic free tier includes 1000 monthly API credits)
+3. Contact RootData to get your API key
+4. Set up the API key in Google Apps Script:
+   - Open your Apps Script project
+   - Go to Project Settings (gear icon)
+   - Click "Script Properties" tab
+   - Add new property:
+     - Property: `ROOTDATA_API_KEY`
+     - Value: Your RootData API key
+
+### 3. Clone and Link Project
 
 ```bash
 git clone https://github.com/imajinl/growth-capital-v0.3.git
@@ -95,7 +108,7 @@ clasp login
 clasp clone 1hvRY2EAINznP4N4cw6NuT0X7zBCrp03EODD4cVnnYDAk6xI3Bjt60ece
 ```
 
-### 3. Push or Pull Changes
+### 4. Push or Pull Changes
 
 To sync code with the cloud script editor:
 
