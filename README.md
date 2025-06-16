@@ -23,7 +23,7 @@
 
 ## 🧱 System Architecture
 
-**Root Inputs**
+**RootData Inputs**
 - FetchProjects
 - FetchInvestorInfo
 - FetchFundraising
